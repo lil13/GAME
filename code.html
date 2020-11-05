@@ -1,0 +1,89 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fight!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body">
+        <header>
+            <img class="logo" title="Reset Game" src="https://www.freepnglogos.com/uploads/counter-strike-png/counter-strike-logos-brands-and-logotypes-9.png" alt="star butterfly">
+        </header>
+        <div class="playground">
+            <div>
+                <div class="pokemon character">
+                    <span class="lvl">Lv. 1</span>
+
+                    
+
+                    <img src="https://svirtus.cdnvideo.ru/m_1tvVU7ciq6i3IDJZ58GfhfFLI=/0x0:395x700/800x0/filters:quality(100)/https://hb.bizmrg.com/cybersportru-media/63/63c3d2df77ec296e979e6ca0a4d31471.png?m=6eb8a9407a79d3d727d69e38617fe740" class="sprite">
+                    <div class="details">
+                        <h2 class="name" id="name-character">
+                            POLICE
+                        </h2>
+                        <div class="hp">
+                            <div class="bar">
+                                <div class="health" id="progressbar-character" style="width: 100%;"></div>
+                            </div>
+                            <span class="text" id="health-character">100 / 100</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="control">
+                    <button class="button" id="character-btn-kick">
+                        FIRE
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <div class="pokemon enemy">
+                    <span class="lvl">Lv. 1</span>
+                    <img src="https://svirtus.cdnvideo.ru/SSYGcZ4c6E52lzQ0Zy_hLZsBs1Q=/0x0:395x700/800x0/filters:quality(100)/https://hb.bizmrg.com/cybersportru-media/33/3387ffb7212ef6ff2b01592a380cf5ca.png?m=e1b4be5ffdd3aa265443f860d8569e96" class="sprite">
+
+                    <div class="details">
+                        <h2 class="name" id="name-enemy">
+                            OFFENDER
+                        </h2>
+                        <div class="hp">
+                            <div class="bar">
+                                <div class="health" id="progressbar-enemy" style="width: 100%;"></div>
+                            </div>
+                            <span class="text" id="health-enemy">100 / 100</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="control">
+                    <button class="button" id="enemy-btn-kick">
+                        Fire 
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="control">
+            <button  onClick="window.location.reload();" class="button">
+                Begin!
+            </button>
+        </div>
+        
+    </div>
+    <div>
+        <input type="button" id="bn" onmousedown="viewDiv()">
+        <div id="div1"><b>Lets try again!</b></div>
+    </div>
+
+  <div class="catch_screen">
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
